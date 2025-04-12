@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ethan Ward - Web Developer from New York</title>
+  <title>chpchsekhar-Software Developer</title>
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="assets\bat.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -37,7 +37,7 @@
     <div class="container">
 
       <a href="#">
-        <h1 class="logo">Ethan Ward</h1>
+        <h1 class="logo">chpchsekhar</h1>
       </a>
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
@@ -73,8 +73,9 @@
           </li>
 
           <li>
-            <a href="#" class="btn btn-primary">Download CV</a>
+            <a href="./assets/resume.pdf" download class="btn btn-primary">Download CV</a>
           </li>
+          
 
         </ul>
       </nav>
@@ -92,116 +93,309 @@
       <!-- 
         - #HERO
       -->
-
       <section class="hero" id="home">
-        <div class="container">
-
-          <div class="hero-banner">
-
-            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
-
-            <div class="elem elem-1">
-              <p class="elem-title">12</p>
-
-              <p class="elem-text">Years of Success</p>
-            </div>
-
-            <div class="elem elem-2">
-              <p class="elem-title">800+</p>
-
-              <p class="elem-text">Projects Completed</p>
-            </div>
-
-            <div class="elem elem-3">
-              <ion-icon name="trophy"></ion-icon>
-            </div>
-
-            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
-              class="rotate-img">
-
-          </div>
-
-          <div class="hero-content">
-
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 40px; position: relative;">
+          <!-- Left content area -->
+          <div class="hero-content" style="max-width: 50%; z-index: 2;">
             <h2 class="hero-title">
-              <span>Hello I'm</span>
-              <strong>Ethan Ward</strong> Web Developer from New York
+              <span style="display: block; font-size: 24px; margin-bottom: 10px; opacity: 0; animation: fadeIn 0.5s ease forwards 0.2s;">Hello I'm</span>
+              <strong style="font-size: 48px; font-weight: 700; display: block; line-height: 1.1; margin-bottom: 15px; opacity: 0; animation: typeIn 1.5s steps(30, end) forwards 0.7s; white-space: nowrap; overflow: hidden;">
+                Purna Chandra Sekhar <br>Chitturi
+              </strong>
+              <span style="font-size: 22px; display: block; margin-bottom: 5px; opacity: 0; animation: fadeIn 0.5s ease forwards 2.3s; background: linear-gradient(90deg, rgba(255,107,53,0.1), rgba(255,107,53,0.3), rgba(255,107,53,0.1)); background-size: 200% 100%; color: #ff6b35; font-weight: 700; padding: 3px 8px; border-radius: 4px; animation: fadeIn 0.5s ease forwards 2.3s, shimmer 3s infinite 2.8s;">Software Developer</span>
+              <span style="font-size: 18px; display: block; margin-bottom: 20px; opacity: 0; animation: fadeIn 0.5s ease forwards 2.8s;">Competitive Programmer and a Tech Enthusiast</span>
             </h2>
-
-            <p class="hero-text">
-              Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
+            
+            <p class="hero-text" style="font-size: 16px; line-height: 1.6; margin-bottom: 30px; opacity: 0; animation: fadeIn 0.5s ease forwards 3.3s;">
+              A results-driven Computer Science student skilled in Java, Python, and SQL, with experience in full-stack
+              development and AI-driven projects, backed by strong problem-solving, leadership, and teamwork abilities.
             </p>
-
-            <div class="btn-group">
-              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
-
-              <a href="#about" class="btn">About Me</a>
+            
+            <!-- First row buttons (LeetCode and GFG) -->
+            <div style="display: flex; gap: 15px; margin-top: 25px; opacity: 0; animation: fadeIn 0.5s ease forwards 3.8s;">
+              <a href="https://leetcode.com/u/chpchsekhar365/" style="display: inline-block; padding: 10px 25px; background-color: white; color: #ff6b35; border: 2px solid #ff6b35; border-radius: 30px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">LeetCode</a>
+              <a href="https://www.geeksforgeeks.org/user/chpchsekcikq/?_gl=1*1votcg6*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwnui_BhDlARIsAEo9Guu4bnIMGhOdh1U24zLBPUOR2WrU6UFtKM772yuxYcTe-TNxf7r9FUoaAniZEALw_wcB" style="display: inline-block; padding: 10px 25px; background-color: white; color: #00aa55; border: 2px solid #00aa55; border-radius: 30px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">GFG</a>
             </div>
-
+      
+            <!-- Second row buttons (Get a Quote and About Me) -->
+            <div style="display: flex; gap: 15px; margin-top: 15px; opacity: 0; animation: fadeIn 0.5s ease forwards 4.3s;">
+              <a href="#contact" 
+                 style="display: inline-block; padding: 10px 24px; background-color: #007bff; color: #fff; border: none; border-radius: 6px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;" 
+                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)';" 
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                Get a Quote
+              </a>
+              <a href="#about" 
+                 style="display: inline-block; padding: 10px 24px; background-color: #6c757d; color: #fff; border: none; border-radius: 6px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;"
+                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)';" 
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                About Me
+              </a>
+            </div>
           </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about">
-        <div class="container">
-
-          <figure class="about-banner">
-
-            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
-
-            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
-              class="abs-img">
-
-            <div class="abs-icon abs-icon-1">
-              <ion-icon name="logo-css3"></ion-icon>
-            </div>
-
-            <div class="abs-icon abs-icon-2">
-              <ion-icon name="logo-javascript"></ion-icon>
-            </div>
-
-            <div class="abs-icon abs-icon-3">
-              <ion-icon name="logo-angular"></ion-icon>
-            </div>
-
-          </figure>
-
-          <div class="about-content">
-
-            <p class="section-subtitle">I'm a Developer</p>
-
-            <h2 class="h2 section-title">I Develop Application that Help People</h2>
-
-            <p class="section-text">
-              Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu
-              fugiat nulla pariatu epteur sint occaecat cupidatat
-            </p>
-
-            <p class="section-text">
-              Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-              omnis
-            </p>
-
-            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
-
+          
+          <!-- Right side image with 3D animation -->
+          <div style="position: relative; width: 450px; display: flex; justify-content: center; align-items: center; perspective: 1000px; margin-left: auto; opacity: 0; animation: fadeIn 0.8s ease forwards 1s;">
+            <img src="./assets/images/img.png" style="width: 100%; height: auto; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.15)); animation: float 6s ease-in-out infinite;" alt="Sekhar's Avatar" id="heroImage">
           </div>
-
         </div>
+      
+        <style>
+          @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          
+          @keyframes typeIn {
+            from { width: 0; opacity: 1; }
+            to { width: 100%; opacity: 1; }
+          }
+          
+          @keyframes float {
+            0% { transform: translateY(0) rotate3d(0, 1, 0, 0deg); }
+            50% { transform: translateY(-15px) rotate3d(0, 1, 0, 5deg); }
+            100% { transform: translateY(0) rotate3d(0, 1, 0, 0deg); }
+          }
+          
+          @keyframes shimmer {
+            0% { background-position: -100% 0; }
+            100% { background-position: 200% 0; }
+          }
+        </style>
+      
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.hero');
+            const image = document.getElementById('heroImage');
+            
+            container.addEventListener('mousemove', function(e) {
+              const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+              const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+              
+              image.style.animation = 'none';
+              image.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg) translateZ(30px)`;
+            });
+            
+            container.addEventListener('mouseleave', function() {
+              image.style.transform = '';
+              image.style.animation = 'float 6s ease-in-out infinite';
+            });
+          });
+        </script>
       </section>
+      
 
 
+
+  <!-- ABOUT----->
+
+  <section id="about" style="padding: 80px 0; background-color: #1e1e2f;">
+    <div style="width: 100%; max-width: 1200px; margin: 0 auto; display: flex; gap: 30px;">
+      
+      <!-- Left Side - Profile Image and Tech Icons -->
+      <div style="flex: 0 0 300px; display: flex; flex-direction: column; align-items: center; gap: 30px;">
+        <!-- Profile Image Container -->
+        <div style="width: 220px; height: 220px; border-radius: 50%; border: 4px solid #f0a500; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.3); position: relative; margin-bottom: 20px;">
+          <!-- Placeholder for your image -->
+          <div style="width: 100%; height: 100%; background-color: #2a2a45; display: flex; align-items: center; justify-content: center; color: #f0a500; font-size: 18px;">
+            <img src="./assets/images/sekhar .jpg" alt="Profile Image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+          </div>
+        </div>
+        
+        <!-- Tech Icons with Brand Colors -->
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; width: 100%;">
+          <!-- Python -->
+          <div style="width: 70px; height: 70px; background-color: rgba(53, 114, 165, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(53, 114, 165, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(53, 114, 165, 0.2)';">
+            <ion-icon name="logo-python" style="font-size: 35px; color: #3572A5;"></ion-icon>
+          </div>
+          <!-- JavaScript -->
+          <div style="width: 70px; height: 70px; background-color: rgba(241, 224, 90, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(241, 224, 90, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(241, 224, 90, 0.2)';">
+            <ion-icon name="logo-javascript" style="font-size: 35px; color: #F1E05A;"></ion-icon>
+          </div>
+          <!-- React -->
+          <div style="width: 70px; height: 70px; background-color: rgba(97, 218, 251, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(97, 218, 251, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(97, 218, 251, 0.2)';">
+            <ion-icon name="logo-react" style="font-size: 35px; color: #61DAFB;"></ion-icon>
+          </div>
+          <!-- HTML5 -->
+          <div style="width: 70px; height: 70px; background-color: rgba(227, 79, 38, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(227, 79, 38, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(227, 79, 38, 0.2)';">
+            <ion-icon name="logo-html5" style="font-size: 35px; color: #E34F26;"></ion-icon>
+          </div>
+          <!-- CSS3 -->
+          <div style="width: 70px; height: 70px; background-color: rgba(38, 77, 228, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(38, 77, 228, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(38, 77, 228, 0.2)';">
+            <ion-icon name="logo-css3" style="font-size: 35px; color: #264DE4;"></ion-icon>
+          </div>
+          <!-- Node.js -->
+          <div style="width: 70px; height: 70px; background-color: rgba(104, 160, 99, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(104, 160, 99, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(104, 160, 99, 0.2)';">
+            <ion-icon name="logo-nodejs" style="font-size: 35px; color: #68A063;"></ion-icon>
+          </div>
+          <!-- Server -->
+          <div style="width: 70px; height: 70px; background-color: rgba(131, 93, 248, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(131, 93, 248, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(131, 93, 248, 0.2)';">
+            <ion-icon name="server-outline" style="font-size: 35px; color: #835DF8;"></ion-icon>
+          </div>
+          <!-- Code -->
+          <div style="width: 70px; height: 70px; background-color: rgba(86, 182, 194, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(86, 182, 194, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(86, 182, 194, 0.2)';">
+            <ion-icon name="code-slash-outline" style="font-size: 35px; color: #56B6C2;"></ion-icon>
+          </div>
+          <!-- Git -->
+          <div style="width: 70px; height: 70px; background-color: rgba(240, 80, 50, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
+               onmouseover="this.style.transform='translateY(-10px)'; this.style.backgroundColor='rgba(240, 80, 50, 0.3)';"
+               onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='rgba(240, 80, 50, 0.2)';">
+            <ion-icon name="git-branch-outline" style="font-size: 35px; color: #F05032;"></ion-icon>
+          </div>
+        </div>
+        
+        <!-- Experience Counter -->
+        <div style="width: 100%; background: linear-gradient(45deg, rgba(240, 165, 0, 0.1), rgba(240, 165, 0, 0.05)); padding: 20px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(240, 165, 0, 0.1); text-align: center; margin-top: 20px;">
+          <span style="font-size: 36px; font-weight: 700; color: #f0a500; display: block;">8+</span>
+          <span style="font-size: 16px; font-weight: 500; color: #fff;">Months Experience</span>
+        </div>
+
+
+        <div style="display: flex; align-items: center; margin: 30px 0; background: linear-gradient(45deg, rgba(240, 165, 0, 0.1), rgba(240, 165, 0, 0.05)); padding: 20px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(240, 165, 0, 0.1);">
+          <span style="font-size: 48px; font-weight: 700; color: #f0a500; margin-right: 15px;">16+</span>
+          <span style="font-size: 18px; font-weight: 500;">Projects completed</span>
+        </div>
+        
+        <div style="display: flex; gap: 15px; margin-top: 30px;">
+          <!-- Portfolio Button -->
+          <a href="#portfolio" style="display: inline-flex; align-items: center; background-color: #f0a500; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(240, 165, 0, 0.3);" 
+             onmouseover="this.style.backgroundColor='#d89400'; this.style.transform='translateY(-2px)';" 
+             onmouseout="this.style.backgroundColor='#f0a500'; this.style.transform='translateY(0)';">
+            <ion-icon name="images-outline" style="margin-right: 8px; font-size: 20px;"></ion-icon>
+            View Portfolio
+          </a>
+          
+          <!-- LinkedIn Button -->
+          <a href="https://www.linkedin.com/" target="_blank" style="display: inline-flex; align-items: center; background-color: #0077B5; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0, 119, 181, 0.3);" 
+             onmouseover="this.style.backgroundColor='#005fa3'; this.style.transform='translateY(-2px)';" 
+             onmouseout="this.style.backgroundColor='#0077B5'; this.style.transform='translateY(0)';">
+            <ion-icon name="logo-linkedin" style="margin-right: 8px; font-size: 20px;"></ion-icon>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+    
+      
+      <!-- Right Side - Content -->
+      <div style="flex: 1; color: #fff;">
+        <p style="color: #f0a500; font-size: 18px; font-weight: 500; margin-bottom: 10px;">I'm a Developer</p>
+        <h2 style="font-size: 36px; font-weight: 700; margin-bottom: 30px; position: relative; padding-bottom: 15px;">
+          About Me
+          <span style="position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background-color: #f0a500;"></span>
+        </h2>
+        
+        <div style="background-color: rgba(240, 165, 0, 0.05); border-left: 4px solid #f0a500; padding: 20px; border-radius: 8px; margin-bottom: 30px; line-height: 1.6; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
+          <p>
+            <strong>Passionate final year Computer Science student</strong> with a keen interest in 
+            <span style="color: #f0a500; font-weight: 600;">Data Science, Coding, Web Development</span> I bring hands-on experience through impactful internships and projects in both software development and machine learning. Skilled in using tools like 
+            <span style="color: #f0a500; font-weight: 600;">VS Code, Spring Tool Suite, Git, Canva, and Jupyter Notebooks</span> with a strong foundation in 
+            <span style="color: #f0a500; font-weight: 600;">C++, Python, Java, JavaScript, and SQL</span> I have built full-stack web applications, developed intelligent ML models, and contributed to real-world geospatial systems. Committed to leveraging data for innovation, backed by strong communication, leadership, and critical thinking skills.
+          </p>
+        </div>
+        
+        
+        <!-- Internship Experience Section -->
+        <div style="margin-bottom: 30px;">
+          <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 20px; position: relative; padding-bottom: 10px; color: #f0a500;">
+            <ion-icon name="briefcase-outline" style="margin-right: 10px; vertical-align: middle;"></ion-icon>Internship Experience
+            <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 3px; background-color: #f0a500;"></span>
+          </h3>
+          
+          <div style="background-color: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 25px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); position: relative; overflow: hidden;">
+            <div style="position: absolute; top: 0; left: 0; width: 5px; height: 100%; background: linear-gradient(to bottom, #f0a500, rgba(240, 165, 0, 0.3));"></div>
+            
+            <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+              <h4 style="font-size: 20px; margin: 0; font-weight: 600;">Software Development Intern</h4>
+              <span style="background-color: rgba(240, 165, 0, 0.2); color: #f0a500; padding: 5px 12px; border-radius: 20px; font-size: 14px; font-weight: 500;">August 2024 – March 2025</span>
+            </div>
+            
+            <p style="font-size: 16px; color: #bbb; margin-bottom: 15px; font-weight: 500;">Avantel Ltd. Hyderabad, A.P</p>
+            
+            <ul style="padding-left: 20px; margin-top: 15px; line-height: 1.7;">
+              <li style="margin-bottom: 10px;">
+                Collaborated with cross-functional teams to develop GUI applications using PyQt5, Tkinter enhancing user experience and system efficiency.
+              </li>
+              <li style="margin-bottom: 10px;">
+                Contributed to the development of geospatial data applications, enabling seamless TIF-to-shapefile mapping for advanced spatial analysis.
+              </li>
+              <li style="margin-bottom: 10px;">
+                Designed and implemented an SNMP-based Java application, integrating MIB file processing, request-response handling, and network device management, optimizing network monitoring capabilities.
+              </li>
+              <li style="margin-bottom: 10px;">
+                Consolidated geospatial data from 10+ sources into a streamlined offline routing system using GraphML, enabling field technicians to access critical navigation information without internet access.
+              </li>
+              <li style="margin-bottom: 10px;">
+                Engineered and deployed a full-stack HRMS web application using  Spring Boot, JavaScript, HTML, and CSS, streamlining human resource management workflows and enhancing operational efficiency.
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div style="margin: 30px 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px 15px;">
+          <div>
+            <strong style="color: #f0a500; display: block; margin-bottom: 5px; font-size: 16px;">
+              <ion-icon name="school-outline" style="margin-right: 8px; vertical-align: middle;"></ion-icon>Education:
+            </strong>
+            <span style="display: block; line-height: 1.5;">Bachelor of Technology, Computer Science & Engineering</span>
+          </div>
+          
+          <div>
+            <strong style="color: #f0a500; display: block; margin-bottom: 5px; font-size: 16px;">
+              <ion-icon name="layers-outline" style="margin-right: 8px; vertical-align: middle;"></ion-icon>Frameworks:
+            </strong>
+            <span style="display: block; line-height: 1.5;">ReactJs, NextJs, Spring, NodeJs, MongoDB, Flask, MySql</span>
+          </div>
+          
+          <div>
+            <strong style="color: #f0a500; display: block; margin-bottom: 5px; font-size: 16px;">
+              <ion-icon name="globe-outline" style="margin-right: 8px; vertical-align: middle;"></ion-icon>Web Tools:
+            </strong>
+            <span style="display: block; line-height: 1.5;">Code Open, Code Sandbox, VS Code,Spring suite tool</span>
+          </div>
+          
+          <div>
+            <strong style="color: #f0a500; display: block; margin-bottom: 5px; font-size: 16px;">
+              <ion-icon name="hammer-outline" style="margin-right: 8px; vertical-align: middle;"></ion-icon>Other Tools:
+            </strong>
+            <span style="display: block; line-height: 1.5;">Git, Spyder, Jupyter notebook, Colab, Canva</span>
+          </div>
+          
+          <div>
+            <strong style="color: #f0a500; display: block; margin-bottom: 5px; font-size: 16px;">
+              <ion-icon name="people-outline" style="margin-right: 8px; vertical-align: middle;"></ion-icon>Soft Skills:
+            </strong>
+            <span style="display: block; line-height: 1.5;">Team Leading, Public speaking, Time Management, Creativity</span>
+          </div>
+          
+          <div>
+            <strong style="color: #f0a500; display: block; margin-bottom: 5px; font-size: 16px;">
+              <ion-icon name="heart-outline" style="margin-right: 8px; vertical-align: middle;"></ion-icon>Interests:
+            </strong>
+            <span style="display: block; line-height: 1.5;">Basketball, Trips, Cricket, Music, Kabbadi</span>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
 
 
 
@@ -217,83 +411,254 @@
           <h2 class="h2 section-title">My Amazing Works</h2>
 
           <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+            A showcase of innovative and impactful projects that highlight my skills in software development, problem-solving, and creative design.
           </p>
 
           <ul class="portfolio-list">
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+              <a href="https://github.com/chpchsekhar/Rental-Application" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/h143.png')">
                 <div class="card-content">
-
-                  <p class="card-subtitle">Youtube</p>
-
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
-
+            
+                  <p class="card-subtitle">Spring Boot</p>
+            
+                  <h3 class="h3 card-title">Rental Property Management Web App</h3>
+            
                   <span class="btn-link">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
+            
                 </div>
               </a>
             </li>
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+              <a href="https://github.com/chpchsekhar/Offline-Hyderabad-maps--route-calculations" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/map3.jpg')">
                 <div class="card-content">
-
-                  <p class="card-subtitle">Vimeo</p>
-
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
-
+            
+                  <p class="card-subtitle">Python - GIS</p>
+            
+                  <h3 class="h3 card-title">Offline Maps & Routing App For Hyderabad city  </h3>
+            
                   <span class="btn-link">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
+            
                 </div>
               </a>
             </li>
+          
+            
+            <li>
+              <style>
+                .portfolio-card.lidar-hover {
+                  position: relative;
+                  background-size: cover;
+                  background-position: center;
+                  color: white;
+                  border-radius: 20px;
+                  overflow: hidden;
+                  text-decoration: none;
+                  display: block;
+                  transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+            
+                .portfolio-card.lidar-hover:hover {
+                  transform: scale(1.03);
+                  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+                }
+            
+                .portfolio-card.lidar-hover::before {
+                  content: "";
+                  position: absolute;
+                  inset: 0;
+                  background-color: rgba(0, 0, 0, 0.55);
+                  z-index: 0;
+                  transition: background-color 0.3s ease;
+                }
+            
+                .portfolio-card.lidar-hover:hover::before {
+                  background-color: rgba(0, 0, 0, 0.7);
+                }
+            
+                .portfolio-card.lidar-hover .card-content {
+                  position: relative;
+                  z-index: 1;
+                  padding: 40px;
+                }
+            
+                .portfolio-card.lidar-hover .card-subtitle {
+                  color: #FF8C00;
+                  margin-bottom: 10px;
+                  font-weight: bold;
+                }
+            
+                .portfolio-card.lidar-hover .card-title {
+                  color: white;
+                  margin-bottom: 20px;
+                }
+            
+                .portfolio-card.lidar-hover .btn-link {
+                  margin-top: 15px;
+                  display: inline-flex;
+                  align-items: center;
+                  gap: 5px;
+                  font-size: 13px;
+                  color: #FF8C00;
+                  text-transform: uppercase;
+                }
+            
+                .portfolio-card.lidar-hover .btn-link ion-icon {
+                  font-size: 1.6rem;
+                  color: #FF8C00;
+                }
+              </style>
+            
+              <a href="https://github.com/chpchsekhar/CloudNet-LiDAR-Based-Face-Recognition-Model-Robust-Against-Light-Variation-ML-" 
+                 target="_blank" 
+                 class="portfolio-card lidar-hover" 
+                 style="background-image: url('./assets/images/f234.jpg');">
+            
+                <div class="card-content">
+                  <p class="card-subtitle">Machine Learning</p>
+            
+                  <h3 class="h3 card-title">LiDAR-Based 3D Face Recognition Model</h3>
+            
+                  <span class="btn-link">
+                    <span>View Project</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+                </div>
+              </a>
+            </li>
+            
+            
+            
+            
+            
+
+           
+            
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+              <a href="https://github.com/chpchsekhar/procurementPlatform/tree/main" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
                 <div class="card-content">
-
-                  <p class="card-subtitle">Soundcloud</p>
-
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
-
+            
+                  <p class="card-subtitle">Spring Boot</p>
+            
+                  <h3 class="h3 card-title">Enterprise Procurement Platform</h3>
+            
                   <span class="btn-link">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
+            
                 </div>
               </a>
             </li>
-
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+              <a href="https://github.com/chpchsekhar/UDP" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
                 <div class="card-content">
-
-                  <p class="card-subtitle">Details</p>
-
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
-
-                  <span class="btn-link">
+            
+                  <p class="card-subtitle">Python / Networking</p>
+            
+                  <h3 class="h3 card-title">Multi-Client Server Application using UDP</h3>
+            
+                  <p style="font-size: 14px; color: #ccc; margin-top: 10px;">
+                    A real-time UDP-based messaging system supporting  message broadcasting, client management, and server-side event logging.
+                  </p>
+            
+                  <span class="btn-link" style="margin-top: 15px; display: inline-flex; align-items: center; gap: 5px;">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
+            
                 </div>
               </a>
             </li>
-
+            <li>
+              <a href="https://github.com/chpchsekhar/font-style-identifying" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+            
+                  <p class="card-subtitle">Python / PDF Processing</p>
+            
+                  <h3 class="h3 card-title">Font Style Detection in PDFs using PyMuPDF</h3>
+            
+                  <p style="font-size: 14px; color: #ccc; margin-top: 10px;">
+                    Built a tool using  PyMuPDF (fitz)  to analyze PDF documents and identify text formatting such as bold, italic,underlined, and strikethrough, based on font metadata and layout structure.
+                  </p>
+            
+                  <span class="btn-link" style="margin-top: 15px; display: inline-flex; align-items: center; gap: 5px;">
+                    <span>View Project</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+            
+                </div>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://github.com/chpchsekhar/Human-Activity-Recoginition-using-ConvLSTM-model/tree/main" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/m.jpg')">
+                <div class="card-content">
+            
+                  <p class="card-subtitle">Deep Learning / Computer Vision</p>
+            
+                  <h3 class="h3 card-title">Human Activity Recognition using ConvLSTM</h3>
+            
+                  <p style="font-size: 14px; color: #ccc; margin-top: 10px;">
+                    Designed a surveillance-focused HAR system using ConvLSTM networks to detect activities like walking, clapping, and using a phone in real-time. Integrated CNNs for spatial feature extraction and LSTMs for temporal pattern analysis to enhance activity recognition accuracy in video data.
+                  </p>
+            
+                  <span class="btn-link" style="margin-top: 15px; display: inline-flex; align-items: center; gap: 5px;">
+                    <span>View Project</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+            
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/chpchsekhar/Face-Recoginition-using-customised--FaceNet-in-infrared-enviornement" 
+                 target="_blank" 
+                 class="portfolio-card" 
+                 style="background-image: url('./assets/images/face.jpg'); 
+                        position: relative; 
+                        background-size: cover; 
+                        background-position: center; 
+                        color: white; 
+                        border-radius: 20px; 
+                        overflow: hidden; 
+                        text-decoration: none; 
+                        display: block; 
+                        padding: 0;">
+            
+                <!-- Dark Overlay -->
+                <div style="position: absolute; inset: 0; background-color: rgba(0,0,0,0.55); z-index: 0;"></div>
+            
+                <!-- Text Content -->
+                <div class="card-content" style="position: relative; z-index: 1; padding: 40px;">
+                  <p class="card-subtitle" style="color: #FF5733; margin-bottom: 5px; font-weight: bold;">Deep Learning / Infrared Imaging</p>
+            
+                  <h3 class="h3 card-title" style="color: #ffffff; margin-bottom: 20px;">Infrared Face Recognition in Sparse Crowds</h3>
+            
+                  <p style="font-size: 14px; color: #ffffff; margin-top: 10px;">
+                    Developed a robust facial recognition system using a customized FaceNet model tailored for 
+                    infrared imaging in sparse crowd surveillance. Tackled challenges like low resolution, 
+                    thermal variation, and data sparsity by generating discriminative embeddings under categorical cross-entropy loss.
+                  </p>
+            
+                  <span class="btn-link" style="margin-top: 15px; display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: #FF5733; text-transform: uppercase;">
+                    <span>View Project</span>
+                    <ion-icon name="arrow-forward" style="font-size: 1.6rem; color: #FF5733;"></ion-icon>
+                  </span>
+                </div>
+              </a>
+            </li>
+            
+            
+            
           </ul>
 
         </div>
@@ -315,14 +680,14 @@
           <h2 class="h2 section-title">I Develop Skills Regularly</h2>
 
           <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+            Skilled in C, Java, and Python with strong problem-solving abilities, complemented by experience in JavaScript, web development, and machine learning.
           </p>
 
           <ul class="skills-list">
 
             <li class="skills-item">
               <div class="wrapper" style="width: 95%">
-                <h3 class=" skills-title">CSS</h3>
+                <h3 class=" skills-title">Java</h3>
 
                 <data class="skills-data" value="95">95%</data>
               </div>
@@ -334,7 +699,7 @@
 
             <li class="skills-item">
               <div class="wrapper" style="width: 75%">
-                <h3 class="skills-title">React</h3>
+                <h3 class="skills-title">Python</h3>
 
                 <data class="skills-data" value="75">75%</data>
               </div>
@@ -346,7 +711,7 @@
 
             <li class="skills-item">
               <div class="wrapper" style="width: 90%">
-                <h3 class="skills-title">MongoDB</h3>
+                <h3 class="skills-title">MySql</h3>
 
                 <data class="skills-data" value="90">90%</data>
               </div>
@@ -358,7 +723,7 @@
 
             <li class="skills-item">
               <div class="wrapper" style="width: 70%">
-                <h3 class="skills-title">Python</h3>
+                <h3 class="skills-title">MongoDB</h3>
 
                 <data class="skills-data" value="70">70%</data>
               </div>
@@ -370,7 +735,7 @@
 
             <li class="skills-item">
               <div class="wrapper" style="width: 80%">
-                <h3 class="skills-title">PHP</h3>
+                <h3 class="skills-title">CSS and HTML</h3>
 
                 <data class="skills-data" value="80">80%</data>
               </div>
@@ -400,90 +765,73 @@
 
 
 
+<!-- 
+  - #CONTACT
+-->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="contact-card">
 
-      <!-- 
-        - #CONTACT
-      -->
+      <p class="card-subtitle">Don't be shy</p>
+      <h2 class="h2 section-title">Drop Me a Line</h2>
 
-      <section class="section contact" id="contact">
-        <div class="container">
+      <div class="wrapper">
 
-          <div class="contact-card">
+        <form action="https://formsubmit.co/chpchsekhar365@gmail.com" method="POST" class="contact-form">
+          <input type="text" name="name" placeholder="Name" required class="contact-input">
+          <input type="email" name="email" placeholder="Email" required class="contact-input">
+          <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
 
-            <p class="card-subtitle">Don't be shy</p>
+          <!-- Optional hidden fields -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
 
-            <h2 class="h2 section-title">Drop Me a Line</h2>
+          <button type="submit" class="btn-submit">Submit Message</button>
+        </form>
 
-            <div class="wrapper">
+        <ul class="contact-list">
 
-              <form action="" class="contact-form">
-
-                <input type="text" name="name" placeholder="Name" required class="contact-input">
-
-                <input type="email" name="email" placeholder="Email" required class="contact-input">
-
-                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
-
-                <button type="submit" class="btn-submit">Submit Message</button>
-
-              </form>
-
-              <ul class="contact-list">
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="location"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Address</h3>
-
-                    <address class="contact-item-link">
-                      20, London, United Kingdom
-                    </address>
-                  </div>
-
-                </li>
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="mail"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Email</h3>
-
-                    <a href="mailto:hello@ethan.com" class="contact-item-link">hello@ethan.com</a>
-                  </div>
-
-                </li>
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="call"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Phone</h3>
-
-                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
-                  </div>
-
-                </li>
-
-              </ul>
-
+          <li class="contact-item">
+            <div class="contact-icon">
+              <ion-icon name="location"></ion-icon>
             </div>
+            <div>
+              <h3 class="contact-item-title">Address</h3>
+              <address class="contact-item-link">
+                31-78, Chitturi vari Street, Near Siddantham road <br>
+                Penugonda, Andhra Pradesh <br>
+                India - 534320
+              </address>
+            </div>
+          </li>
 
-          </div>
+          <li class="contact-item">
+            <div class="contact-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+            <div>
+              <h3 class="contact-item-title">Email</h3>
+              <a href="mailto:chpchsekhar365@gmail.com" class="contact-item-link">chpchsekhar365@gmail.com</a>
+            </div>
+          </li>
 
-        </div>
-      </section>
+          <li class="contact-item">
+            <div class="contact-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+            <div>
+              <h3 class="contact-item-title">Phone</h3>
+              <a href="tel:+919177915889" class="contact-item-link">+91 9177915889</a>
+            </div>
+          </li>
 
+        </ul>
 
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 
@@ -493,78 +841,79 @@
 
       <section class="section blog" id="blog">
         <div class="container">
-
+      
           <p class="section-subtitle">Latest News</p>
-
+      
           <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
-
+      
           <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+            A glimpse into my research, leadership, and community-driven experiences in the tech world.
           </p>
-
+      
           <ul class="blog-list">
-
+      
             <li>
               <div class="blog-card">
-
+      
                 <figure class="card-banner">
                   <a href="#">
                     <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                      alt="Publishing My First Research Paper in IJCS" class="img-cover">
                   </a>
                 </figure>
-
-                <a href="#" class="card-tag">Web Development</a>
-
+      
+                <a href="#" class="card-tag">Publications</a>
+      
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="#">Publishing My First Research Paper in IAENG Journal: A Custom FaceNet Approach for Infrared Imaging</a>
                 </h3>
-
+      
               </div>
             </li>
-
+      
             <li>
               <div class="blog-card">
-
+      
                 <figure class="card-banner">
                   <a href="#">
                     <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                      alt="Presenting at InCACCT 2025" class="img-cover">
                   </a>
                 </figure>
-
-                <a href="#" class="card-tag">Web Development</a>
-
+      
+                <a href="#" class="card-tag">Conferences</a>
+      
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="#">How I Presented My Work at InCACCT 2025: Tips for First-Time Presenters</a>
                 </h3>
-
+      
               </div>
             </li>
-
+      
             <li>
               <div class="blog-card">
-
+      
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                    <img src="./assets/images/b.jpeg" width="1181" height="843" loading="lazy"
+                      alt="Cybersecurity Awareness Campaign and Hackathon" class="img-cover">
                   </a>
                 </figure>
-
-                <a href="#" class="card-tag">Web Development</a>
-
+      
+                <a href="#" class="card-tag">Leadership</a>
+      
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="#">How I Organized a 24-Hour Hackathon & Led a Cybersecurity Awareness Campaign</a>
                 </h3>
-
+      
               </div>
             </li>
-
+      
           </ul>
-
+      
         </div>
       </section>
+      
 
     </article>
   </main>
