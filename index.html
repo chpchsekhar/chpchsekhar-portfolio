@@ -782,9 +782,13 @@
           <input type="email" name="email" placeholder="Email" required class="contact-input">
           <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
 
-          <!-- Optional hidden fields -->
+          <!-- Updated hidden fields -->
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+          <input type="hidden" name="_next" value="https://chpchsekhar.github.io/chpchsekhar-portfolio/thankyou.html">
+          <input type="hidden" name="_subject" value="New message from portfolio website!">
+          <input type="hidden" name="_template" value="table">
+          <!-- Prevent spam with honeypot field -->
+          <input type="text" name="_honey" style="display:none">
 
           <button type="submit" class="btn-submit">Submit Message</button>
         </form>
